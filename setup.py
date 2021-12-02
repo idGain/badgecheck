@@ -30,7 +30,7 @@ setup(
     license='Apache 2',
     description=short_description,
     long_description=README,
-    url='https://github.com/IMSGlobal/openbadges-validator-core',
+    url='https://github.com/idGain/badgecheck',
     author='IMS Global',
     author_email='openbadgesinfo@imsglobal.org',
     classifiers=[
@@ -50,7 +50,7 @@ setup(
     ],
     install_requires=[
         'aniso8601>=1.2.0',
-        'Click == 6.7',
+        'Click >= 8',
         'future>=0.16.0',
         'jsonschema==2.6.0',
         'language-tags==0.4.3',
@@ -61,14 +61,14 @@ setup(
         'PyLD==0.7.1',
         'python-jose==3.0.1',
         'python-mimeparse==1.6.0',
-        'pytz==2017.2',
+        'pytz==2021.3',
         'requests >= 2.13',
         'requests_cache>=0.4.13',
-        'rfc3986==0.4.1',
+        'rfc3986==1.5.0',
         'validators==0.11.2',
     ],
     extras_require={
-        'server':  ["Flask==1.0", 'gunicorn==19.7.1'],
+        'server':  ["Flask==1.0", 'gunicorn==20.1.0'],
     },
     entry_points="""
         [console_scripts]
