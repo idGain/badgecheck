@@ -5,7 +5,7 @@ jsonschema==4.2.1
 language-tags==1.1.0
 openbadges_bakery>=2.0.0
 puremagic==1.11
-pycryptodome==3.11.0
+pycryptodome==3.19.1
 pydux==0.2.2
 PyLD==2.0.3
 python-jose==3.3.0
@@ -22,5 +22,5 @@ pytest
 responses==0.16.0
 
 # Server dependencies
-Flask==2.0.2
+Flask==2.2.5
 gunicorn==20.1.0
